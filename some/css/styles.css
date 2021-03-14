@@ -1,0 +1,197 @@
+:root {
+    /* Farve palette */
+    --f-1: #d2f2c9;
+    --f-2: #c1d9ba;
+    --f-3: #315937;
+    --f-4: #21402e;
+    --f-5: #102226;
+    --f-8: #d2b0b0;
+
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--f-2);
+    background-image: linear-gradient(to left, rgba(49, 89, 55, 0.55), #c1d9ba);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+body {
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* header */
+
+.banner {
+    width: 100%;
+}
+
+h1 {
+    font-size: 8vw;
+    text-align: center;
+    color: var(--f-4);
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+nav {
+    margin-top: -20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 20px 0 20px;
+}
+
+a {
+
+    font-size: 3vw;
+    color: var(--f-3);
+}
+
+/* Main */
+
+main {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 5vw;
+    text-align: center;
+    color: var(--f-4);
+}
+
+/* TONE OF VOICE */
+
+.toneOfVoice {
+    margin-top: 100px;
+    width: 100%;
+}
+
+#toneOfVoice {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tov-tr {
+    width: 100%;
+
+}
+
+.tov-th {
+    color: var(--f-3);
+    border: 2px solid var(--f-3);
+    font-size: 2vw;
+}
+
+.tov-td {
+    border: 2px solid var(--f-3);
+    color: var(--f-4);
+    vertical-align: top;
+    font-size: 1.4vw;
+}
+
+
+.tekst-kasse {
+    background-color: var(--f-1);
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 5px 10px 5px rgba(5, 51, 14, 0.33);
+}
+
+h3 {
+    padding: 10px 0 0 20px;
+    font-size: 3vw;
+    color: var(--f-4);
+}
+
+p {
+    padding: 0 20px 20px;
+    font-size: 2vw;
+    color: var(--f-5);
+}
+
+.kasse {
+    margin-top: 100px;
+}
+
+.lille-ikon {
+    height: 8vw;
+    display: block;
+    margin: auto;
+    margin-bottom: -3vw;
+}
+
+/* Tabel */
+
+.tabel {
+    margin-top: 100px;
+    background-color: var(--f-1);
+    box-shadow: 2px 5px 10px 5px rgba(5, 51, 14, 0.33);
+}
+
+#contentPlan {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabel-description {
+    background-color: var(--f-4);
+}
+
+.tabel-1row {
+    background-color: var(--f-1);
+}
+
+.tabel-2row {
+    background-color: var(--f-2);
+}
+
+th {
+    text-align: left;
+    padding: 5px 10px;
+    color: var(--f-1);
+    font-weight: 500;
+    font-size: 2.2vw;
+    border: 2px solid var(--f-5);
+
+}
+
+td {
+    border: 2px solid var(--f-3);
+    color: var(--f-5);
+    padding: 5px 10px;
+    font-size: 1.8vw;
+    vertical-align: top;
+}
+
+.uge {
+    text-align: center;
+    border: 2px solid var(--f-3);
+    background-color: var(--f-3);
+    color: var(--f-1);
+    padding: 0;
+    margin: auto;
+    font-size: 2vw;
+    width: 407.5%;
+    margin-left: -1px;
+}
+
+.uge strong {
+    padding: 0 20px;
+}
