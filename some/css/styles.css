@@ -86,24 +86,50 @@ h2 {
     border-collapse: collapse;
 }
 
-.tov-tr {
+tr {
     width: 100%;
-
 }
 
-.tov-th {
+th {
     color: var(--f-3);
     border: 2px solid var(--f-3);
     font-size: 2vw;
 }
 
-.tov-td {
+td {
     border: 2px solid var(--f-3);
     color: var(--f-4);
     vertical-align: top;
     font-size: 1.4vw;
+    padding: 10px;
 }
 
+.tov-td {
+    vertical-align: middle
+}
+
+/* SWEET SPOT */
+
+.sweet {
+    margin-top: 100px;
+}
+
+
+
+figcaption {
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: var(--f-1);
+    padding: 10px;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.user {
+    background-color: var(--f-3);
+    border-radius: 10px;
+}
 
 .tekst-kasse {
     background-color: var(--f-1);
@@ -137,61 +163,66 @@ p {
     margin-bottom: -3vw;
 }
 
-/* Tabel */
 
-.tabel {
-    margin-top: 100px;
-    background-color: var(--f-1);
-    box-shadow: 2px 5px 10px 5px rgba(5, 51, 14, 0.33);
-}
-
-#contentPlan {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.tabel-description {
-    background-color: var(--f-4);
-}
-
-.tabel-1row {
-    background-color: var(--f-1);
-}
-
-.tabel-2row {
-    background-color: var(--f-2);
-}
-
-th {
-    text-align: left;
-    padding: 5px 10px;
-    color: var(--f-1);
-    font-weight: 500;
-    font-size: 2.2vw;
-    border: 2px solid var(--f-5);
-
-}
-
-td {
-    border: 2px solid var(--f-3);
-    color: var(--f-5);
-    padding: 5px 10px;
-    font-size: 1.8vw;
-    vertical-align: top;
-}
-
-.uge {
-    text-align: center;
-    border: 2px solid var(--f-3);
-    background-color: var(--f-3);
-    color: var(--f-1);
-    padding: 0;
-    margin: auto;
-    font-size: 2vw;
-    width: 407.5%;
-    margin-left: -1px;
-}
 
 .uge strong {
     padding: 0 20px;
+}
+
+/* DESIGN ELEMENTER */
+
+#design {
+    margin-top: 100px;
+}
+
+.farve-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.farver {
+    height: 20vw;
+    width: 20vw;
+    margin: 20px 0;
+    border: 10px solid #d2f2c9;
+    box-shadow: 2px 5px 10px 5px rgba(5, 51, 14, 0.33);
+}
+
+
+.farve-figcaption {
+    font-size: 2vw;
+    text-align: left;
+    padding-top: 60px;
+}
+
+.c1 {
+    color: var(--f-5);
+}
+
+.f1 {
+    background-color: var(--f-1);
+}
+
+
+
+.f2 {
+    background-color: var(--f-2);
+}
+
+.f3 {
+    background-color: var(--f-3);
+}
+
+.f4 {
+    background-color: var(--f-4);
+}
+
+.f5 {
+    background-color: var(--f-5);
+}
+
+.f6 {
+    background-color: var(--f-8);
 }
