@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "login"
+AuthUserFile /var/www/cmed-studies.dk/public_html/some/.htpasswd
+Require valid-user
+
