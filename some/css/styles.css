@@ -60,6 +60,7 @@ nav:after {
 nav ul {
     list-style: none;
     position: relative;
+
 }
 
 nav ul li {
@@ -74,11 +75,13 @@ nav ul li a {
     line-height: 70px;
     font-size: 2.5vw;
     padding: 8px 15px;
+    text-align: left
 }
 
 nav ul li a:hover {
     color: var(--f-8);
     border-radius: 5px;
+
 
 }
 
@@ -172,7 +175,19 @@ a {
     padding-top: 100px;
 }
 
+#logo {
+    padding-top: 100px;
+}
+
 #fav {
+    padding-top: 100px;
+}
+
+#typo {
+    padding-top: 100px;
+}
+
+#texture {
     padding-top: 100px;
 }
 
@@ -189,7 +204,7 @@ main {
 h2 {
     font-size: 5vw;
     text-align: center;
-    color: var(--f-4);
+    color: var(--f-3);
 }
 
 /* TONE OF VOICE */
@@ -287,8 +302,18 @@ p {
 
 /* DESIGN ELEMENTER */
 
+/* LOGO */
 
+.design-flex {
+    display: flex;
+    justify-content: space-between;
+}
 
+.design-flex img {
+    width: 45%;
+}
+
+/* FARVER */
 .farve-flex {
     display: flex;
     justify-content: space-between;
@@ -339,6 +364,12 @@ p {
 .f6 {
     background-color: var(--f-8);
 }
+
+.tex-billede {
+    border: 4px solid var(--f-1);
+}
+
+
 
 @media all and (max-width: 700px) {
 
