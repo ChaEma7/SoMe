@@ -29,14 +29,13 @@ body {
 
 .banner {
     width: 100%;
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 h1 {
     font-size: 8vw;
     text-align: center;
     color: var(--f-4);
-    margin-top: -20px;
     margin-bottom: 0;
 }
 
@@ -113,7 +112,7 @@ nav ul ul li {
     width: auto;
     float: none;
     display: list-item;
-    border-bottom: 1px solid rgta(0, 0, 0, 0.3);
+    border-bottom: 1px solid var(--f-1);
 }
 
 
@@ -171,6 +170,14 @@ a {
     padding-top: 100px;
 }
 
+#kamp-plan {
+    padding-top: 100px;
+}
+
+#contentkalender {
+    padding-top: 100px;
+}
+
 #design {
     padding-top: 100px;
 }
@@ -191,6 +198,10 @@ a {
     padding-top: 100px;
 }
 
+#billeder {
+    padding-top: 100px;
+}
+
 
 /* Main */
 
@@ -205,6 +216,7 @@ h2 {
     font-size: 5vw;
     text-align: center;
     color: var(--f-3);
+    padding-top: 100px;
 }
 
 /* TONE OF VOICE */
@@ -246,7 +258,6 @@ td {
 .sweet {
     padding-top: 100px;
 }
-
 
 
 figcaption {
@@ -300,6 +311,16 @@ p {
     padding: 0 20px;
 }
 
+.kp {
+    width: 94%;
+    border: 4px solid var(--f-1);
+    padding: 10px
+}
+
+.ck {
+    width: 100%;
+}
+
 /* DESIGN ELEMENTER */
 
 /* LOGO */
@@ -344,7 +365,6 @@ p {
 }
 
 
-
 .f2 {
     background-color: var(--f-2);
 }
@@ -368,6 +388,75 @@ p {
 .tex-billede {
     border: 4px solid var(--f-1);
 }
+
+.pic1 {
+    height: 30vw;
+    margin: 2vw;
+}
+
+.fig-billede-1 {
+    height: 15vw;
+    width: 15vw;
+    background-color: var(--f-8);
+    border-radius: 100%;
+    position: absolute;
+    margin: -35vw 5vw 5vw 40vw;
+    z-index: -99;
+}
+
+.fig-billede-2 {
+    height: 25vw;
+    width: 25vw;
+    background-color: var(--f-8);
+    border-radius: 100%;
+    position: absolute;
+    margin: -25vw 5vw 5vw 55vw;
+    z-index: -99;
+}
+
+.fig-billede-3 {
+    height: 10vw;
+    width: 10vw;
+    background-color: var(--f-8);
+    border-radius: 100%;
+    position: absolute;
+    margin: -15vw 5vw 5vw 35vw;
+    z-index: -99;
+}
+
+/* CONTENT */
+
+.gif {
+    width: 45%;
+    padding: 10px;
+}
+
+.insta-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.insta-feed {
+    padding: 10px;
+}
+
+.insta-story {
+    height: 535px;
+    padding: 10px;
+}
+
+video {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
 
 
 
@@ -481,6 +570,170 @@ p {
     .farver {
         height: auto;
     }
+
+    /* font size */
+
+    h1 {
+        font-size: 8vw;
+        margin-top: 2vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+
+    th {
+        font-size: 3vw;
+    }
+
+    td {
+        font-size: 1.8vw;
+        padding: 1vw;
+    }
+
+
+    figcaption {
+        font-size: 2vw;
+    }
+
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+    #strategi {
+        padding-top: 50px;
+    }
+}
+
+@media all and (min-width: 800px) {
+
+    /* FONT STØRRELSER */
+
+    nav ul li:hover > ul {
+        top: 50px;
+    }
+
+    h1 {
+        font-size: 6vw;
+        margin-top: -40px;
+    }
+
+    nav {
+        height: 10%;
+
+    }
+
+    nav ul li a {
+        line-height: 50px;
+        font-size: 2vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    th {
+        font-size: 2vw;
+    }
+
+    td {
+        font-size: 1vw;
+    }
+
+
+    figcaption {
+        font-size: 2vw;
+    }
+
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    p {
+        font-size: 1vw;
+    }
+
+
+    .lille-ikon {
+        height: 4vw;
+        margin-bottom: -1vw;
+    }
+
+    .wrapper {
+        padding-top: 100px;
+        display: grid;
+        grid-column-gap: 2vw;
+        grid-auto-rows: minmax(100vw, auto);
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "kampagne tone"
+            "sweet smart";
+
+    }
+
+    .kampagne {
+        grid-area: kampagne;
+
+    }
+
+    .toneOfVoice {
+        grid-area: tone;
+    }
+
+    .sweet {
+        grid-area: sweet;
+    }
+
+    .smart-kasse {
+        grid-area: smart;
+    }
+
+    #tov {
+        padding-top: 0;
+    }
+
+    #sweetspot {
+        padding: 0;
+
+    }
+
+    #smart {
+        padding: 0;
+    }
+
+    #kamp-plan {
+        margin-top: -200px;
+    }
+
+    .insta-story {
+        height: 650px;
+        padding: 10px;
+    }
+
+    .gif {
+        width: 20%;
+        padding: 10px;
+    }
+
+    video {
+        width: 80%;
+    }
+
+
+
+
+
+
+
+
 
 
 
